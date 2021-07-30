@@ -15,7 +15,9 @@
 		<nav>
 			<section class="container nav-2">
 				<div class="logo">
-					<img src="img/logo-jordan-alexander.png" alt="">
+					<a href="#">
+						<img src="img/logo-jordan-alexander.png" alt="">	
+					</a>
 				</div>
 				<div class="enlaces-header">
 					<?php $arr = ['Home','We provide','Our creatyvity','Lorem','Web design','Contact Us'];

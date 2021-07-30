@@ -151,11 +151,32 @@ nav{
 	border-radius: 10px;
 	padding: 45px 30px 60px 30px;
 	transition: 0.5s;
+	display: inline-block;
 }
 
 .articulo:hover{
 	box-shadow: 0 4px 10px rgba(17,29,48,.26);
+	background: #1fde82;
 }
+
+.articulo:hover h3{
+	color: #fff;
+}
+
+.articulo:hover p{
+	color: #fff;
+}
+
+.articulo:hover a{
+	color: #fff;
+	transition: 1s;
+}
+
+.articulo:hover i{
+	background:#fff;
+	color: #1fde82;
+}
+
 
 .articulo>i{
 	font-size: 30px;
@@ -188,10 +209,6 @@ nav{
 	text-decoration: none;
 }
 
-.articulo>a:hover{
-	color: #1fde82;
-	transition: color .5s;
-}
 
 .questions{
 	width: 100%;
@@ -687,7 +704,7 @@ body.showLoginForm .popup {
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY( 180deg);
-}
+}*/
 
 /*.cards .front,
 .cards .back{
